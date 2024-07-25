@@ -2,10 +2,24 @@ public class Demo {
     public static void main(String[] args) {
 
 
-        int x=4; 
-        int y=6;
+        // double x=7.34; 
+        // double y=7.342;
 
-        boolean  result = x<y;
+
+        // int a =2;
+        // int b=3;
+
+        // boolean  result = x==y && a<b;
+        
+
+
+
+        int x=2;
+        int y=3;
+        int a =7;
+        int b=9;
+
+        boolean result = x > y  || a < b;
         System.out.println(result);
     }
 }

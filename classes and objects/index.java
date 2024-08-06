@@ -31,6 +31,4 @@ public class index {
 //object has the properties and the behaviors
 //to create a object have to create the class first
 
-//
-// ?
 

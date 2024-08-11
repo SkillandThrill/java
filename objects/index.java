@@ -1,4 +1,3 @@
-// package objects;
 
 class Calculator
 {
@@ -8,6 +7,16 @@ class Calculator
         return  r;
     }
 }
+
+class Multiply{
+
+    public int times(int a , int b)
+    {
+        int r = a*b;
+        return  r;
+    }
+}
+
 
 
 public class index {
@@ -20,8 +29,11 @@ public class index {
             int result =  calc.add(a,b);
             
             System.out.println(result);
-        
+            
+            Multiply mul = new Multiply();
+            int mulResult = mul.times(a, b);
 
+            System.out.println(mulResult);
 
 
             // int result = a + b;

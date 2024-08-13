@@ -19,7 +19,8 @@ class Multiply{
 
 class Division{
     public int divide(int a, int b){
-        return 0;
+        int r = a/b;
+        return r;
     }
 }
 
@@ -27,8 +28,8 @@ class Division{
 public class index {
         public static void main(String[] args) {
 
-            int a = 3;
-            int b =8;
+            int a = 5;
+            int b =5;
 
             Calculator calc = new Calculator();
             int result =  calc.add(a,b);
@@ -42,6 +43,8 @@ public class index {
 
             Division div = new Division();
             int divResult = div.divide(a,b);
+
+            System.out.println(divResult);
 
             // int result = a + b;
             // cmnt

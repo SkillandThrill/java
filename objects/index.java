@@ -18,7 +18,7 @@ class Multiply{
 }
 
 class Division{
-    public int divide(int a, intb){
+    public int divide(int a, int b){
         return 0;
     }
 }
@@ -40,6 +40,8 @@ public class index {
 
             System.out.println(mulResult);
 
+            Division div = new Division();
+            int divResult = div.divide(a,b);
 
             // int result = a + b;
             // cmnt

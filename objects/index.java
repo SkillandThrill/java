@@ -17,6 +17,11 @@ class Multiply{
     }
 }
 
+class Division{
+    public int divide(int a, intb){
+        return 0;
+    }
+}
 
 
 public class index {
@@ -38,6 +43,9 @@ public class index {
 
             // int result = a + b;
             // cmnt
+
+
+        
         }
     
 }

@@ -13,8 +13,8 @@ public class cast{
         System.out.println(myIntt);
 
 
-        // byte b = 127;
-        // int a= 256;
+        byte b = 127;
+        int a= 256;
 
         // byte k = a;
         // System.out.println(k);

@@ -20,7 +20,7 @@ public class cast{
         // System.out.println(k);
 
 
-        // float f =5.6f;
+        float f =5.6f;
         // int t = (int) f;
 
         // System.out.println(t);
